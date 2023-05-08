@@ -1,0 +1,15 @@
+.navigation {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
+    border-radius: 6%;
+}
+
+.navigation__list {
+    list-style-type: none;
+}
+
+.navigation__row {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: large;
+}

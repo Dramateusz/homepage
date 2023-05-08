@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Najnowsze informacje ze świata gier, filmów i seriali</title>
+  <link href="CSS/style.css" rel="stylesheet">
+  <link href="CSS/header.css" rel="stylesheet">
+  <link href="CSS/navigation.css" rel="stylesheet">
+  <link href="CSS/article.css" rel="stylesheet">
+  <link href="CSS/linkTable.css" rel="stylesheet">
+  <link href="CSS/footer.css" rel="stylesheet">
+  <script defer src="js/scripts.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+
+  <header class="header">
+    <h1 class="header__logo">SoloX</h1>
+    <button class="buttonTheme">Włącz <span class="themeName">szare</span> tło</button>
+  </header>
+
+  <nav class="navigation">
+    <ol class="navigation__list">
+      <li class="navigation__row"><a class="link" href="#Gry">Gry</a></li>
+      <li class="navigation__row"><a class="link" href="#Filmy">Filmy</a></li>
+      <li class="navigation__row"><a class="link" href="#Seriale">Seriale</a></li>
+      <li class="navigation__row"><a class="link" href="#Przydatne-linki">Przydatne Linki</a></li>
+    </ol>
+  </nav>
+
+  <main class="main">
+
+    <article class="article">
+      <div id="Polecane">
+        <h2 class="article__subHeaderCat">🔴 Polecane 🔴</h2>
+        <img class="article__mainThumbnail" src="https://www.gry-online.pl/i/h/17/363094176.jpg"
+          alt="Przykładowy artykuł">
+        <h3><a class="link" href="#">Przykładowy artykuł</a></h3>
+      </div>
+    </article>
+
+    <article>
+      <div id="Gry">
+        <h2 class="article__subHeaderCat">🔹Gry</h2>
+        <img class="article__subThumbnail"
+          src="https://assetsio.reedpopcdn.com/diablo-4-poradnik-solucja-headline.jpg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp"
+          alt="Diablo 4 będzie miało kolejną otwartą betę - oficjalne daty">
+        <h3><a class="link" href="#">Diablo 4 będzie miało kolejną otwartą betę - oficjalne daty</a></h3>
+        <img class="article__subThumbnail" src="https://i.ytimg.com/vi/bN0DC1vx80E/maxresdefault.jpg"
+          alt="TOP 10 gier MOBA">
+        <h3><a class="link" href="#">TOP 10 gier MOBA</a></h3>
+      </div>
+    </article>
+
+    <article>
+      <div id="Filmy">
+        <h2 class="article__subHeaderCat">🔹Filmy</h2>
+        <img class="article__subThumbnail" src="https://images.gram.pl/news/lmuq20230214104944399qpye.jpg"
+          alt="Keanu Reeves opowiada o kulisach planu filmu John Wick 4">
+        <h3><a class="link" href="#">Keanu Reeves opowiada o kulisach planu filmu John Wick 4</a></h3>
+      </div>
+    </article>
+
+    <article>
+      <div id="Seriale">
+        <h2 class="article__subHeaderCat">🔹Seriale</h2>
+        <img class="article__subThumbnail"
+          src="https://sm.ign.com/t/ign_pl/screenshot/default/aaaabxlt7skny36ua9hdgsk0f-vscfemve1ncvhp9hhqii5iikk2bquahsgo_356y.1280.jpg"
+          alt="Recenzja serialu Alice in Borderland">
+        <h3><a class="link" href="#">Recenzja serialu Alice in Borderland</a></h3>
+      </div>
+    </article>
+
+    <article class="article">
+      <div id="Przydatne-linki">
+        <h2 class="article__subHeaderCat">🔶 Przydatne linki 🔶</h2>
+        <div class="article__container">
+          <table class="linkTable">
+            <caption class="linkTable__caption">
+              <h3>Poradniki do gier</h3>
+            </caption>
+            <thead>
+              <tr class="linkTable__row">
+                <th class="linkTable__cell linkTable__cell--header" scope="col"> Nazwa gry</th>
+                <th class="linkTable__cell linkTable__cell--header" scope="col"> Link</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="linkTable__row">
+                <th class="linkTable__cell linkTable__cell--header" scope="row" rowspan="2"> New World</th>
+                <td class="linkTable__cell"><a target="_blank" class="link" href="https://www.newworld-map.com/#/">Mapa
+                    i
+                    surowce</a>
+                </td>
+              </tr>
+              <tr class="linkTable__row">
+                <td class="linkTable__cell"><a target="_blank" class="link"
+                    href="https://newworldfans.com/builds">Buildy</a>
+                </td>
+              </tr>
+              <tr class="linkTable__row">
+                <th class="linkTable__cell linkTable__cell--header" scope="row"> Teamfight Tactics</th>
+                <td class="linkTable__cell"><a target="_blank" class="link"
+                    href="https://tftactics.gg/tierlist/team-comps">Meta
+                    kompozycji drużyny</a></td>
+              </tr>
+              <tr class="linkTable__row">
+                <th class="linkTable__cell linkTable__cell--header" scope="row" rowspan="2"> Lost Ark</th>
+                <td class="linkTable__cell"><a target="_blank" class="link" href="https://lostarkmap.com/">Mapa i
+                    oznaczenia</a></td>
+              </tr>
+              <tr class="linkTable__row">
+                <td class="linkTable__cell"><a class="link" target="_blank"
+                    href="https://thegamescabin.com/complete-excavating-guide-lost-ark/">Poradnik do
+                    excavating</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </article>
+
+    <footer class="footer">
+      <p>Made by <strong>Mateusz Burak</strong></p>
+    </footer>
+  </main>
+
+</body>
+
+</html>

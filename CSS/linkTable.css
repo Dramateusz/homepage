@@ -1,0 +1,32 @@
+.linkTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.linkTable__caption {
+    margin: 20px;
+    font-size: large;
+}
+
+.linkTable__row:nth-child(even) {
+    background: #eee;
+}
+
+.linkTable__row {
+    background-color: white;
+}
+
+.linkTable__row:hover {
+    background-color: #ddd;
+}
+
+.linkTable__cell {
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+.linkTable__cell--header {
+    background-color: rgb(241, 111, 111);
+    color: white;
+    font-weight: normal;
+}
